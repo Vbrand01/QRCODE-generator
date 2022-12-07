@@ -17,6 +17,10 @@ body{
     background: linear-gradient(90deg, rgb(56, 56, 56) 35%, rgb(43, 43, 43) 100%);
 }
 
+.ajuste{
+    text-align: center;
+}
+
 .container{
     height: 360px;
     background-color: rgb(188, 255, 5);
