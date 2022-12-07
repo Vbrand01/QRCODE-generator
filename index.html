@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QR CODE</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="box.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- <img src="img/icon.png" height="50px" alt=""> -->
+            <div class="scanner">
+              <div class="box-icon"> <img src="img/icon.png" height="50px" alt=""><div class="highlight"></div></div>
+            </div>
+
+            <h1 class="qr">QR CODE</h1>
+            <p>Para gerar o QR CODE insira uma URL ou texto</p>
+        </header>
+        <main class="form">
+            <input type="text" placeholder="Insira aqui">
+            <button>Gerar QR CODE</button>
+        </main>
+
+        <footer class="qr-code">
+            <img src="" alt="" class="img">
+        </footer>
+
+        <br>
+
+        <div class="cp">
+            <h3>@vm.brandao</h3><p><a href="https://www.instagram.com/vm.brandao/">Clique e veja meu perfil</a></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>

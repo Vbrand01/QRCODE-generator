@@ -1,0 +1,110 @@
+.box-icon {
+    animation: change-background 4s linear infinite alternate;
+}
+
+.scanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+  
+  /* Keyframes */
+  @keyframes change-background {
+    0% {
+      background: rgb(188, 255, 5);
+      box-shadow: 0px 10px 30px 10px #00ffaa27;
+
+    }
+    50% {
+      background: rgb(190, 216, 168);
+      box-shadow: 0px 10px 30px 10px #00ffaa00;
+
+    }
+    100% {
+        background: #afafaf;
+        box-shadow: 0px 10px 30px 10px #00ffaa00;
+
+
+    }
+  }
+  
+  pre {
+    line-height: 2;
+  }
+  
+  .box-icon {
+    background: blue;
+    height: 2em;
+    padding: 5px;
+    border-radius: 200px  200px;
+    width: 8em;
+  }
+  
+  .highlight {
+    animation: move-highlight 4s linear infinite alternate;
+    height: 0.22em;
+    width: 14em;
+    margin-left: -58px;
+    position: absolute;
+    background: #0026ff;
+    box-shadow: 0px 10px 30px 10px #05177a8f;
+    border-radius: 20px;
+    top: 0em;
+  }
+  
+  @keyframes move-highlight {
+    100% {
+      top: 30em;
+    }
+  }
+
+
+  @media (max-width: 768px){
+    .highlight {
+      animation: move-highlight 4s linear infinite alternate;
+      height: 0.22em;
+      width: 14em;
+      margin-left: -87px;
+      position: absolute;
+      background: #0026ff;
+      box-shadow: 0px 10px 30px 10px #05177a8f;
+      border-radius: 20px;
+      top: 0em;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* @vm.brandao 
