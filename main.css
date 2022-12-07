@@ -181,6 +181,10 @@ header p{
         margin: 30px;
         transition: box-shadow 1s;
     }
+    
+    .ajustar {
+    alinhamento de texto : none;
+    }
 }
 
 
